@@ -7,10 +7,8 @@ var n4 = (Math.floor (num / 1000 % 10))
 var n5 = (Math.floor (num / 10000 % 10))
 var n6 = (Math.floor (num / 100000 % 10))
 
-var a = n1 + n2 + n3;
-var b = n4 + n5 + n6;
 
-if (a = b){
+if ((n1 + n2 + n3) === (n4 + n5 + n6)){
     alert('Поздравляем! У вас счастливый билет')
 } else {
     alert('Увы, у вас не счастливый билет :(')
